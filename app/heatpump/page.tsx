@@ -1,4 +1,6 @@
 "use client";
+export const dynamic = 'force-dynamic';
+
 
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
@@ -99,7 +101,7 @@ export default function HeatpumpPage() {
       {/* Main Section */}
       <section className="flex flex-col lg:flex-row items-center justify-center px-8 sm:px-14 md:px-20 py-10 md:py-14 lg:py-24 xl:py-30 gap-16 lg:gap-20 xl:gap-30 2xl:gap-40">
         <div className="max-w-3xl">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight text-[#072543]">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 leading-tight text-[#072543]">
             Wärmepumpe
             <span className="hidden lg:inline"><br /></span>
             <span className="sm:hidden"><br /> </span>
